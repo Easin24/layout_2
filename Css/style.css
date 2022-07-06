@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Layout 1 CSS Start */
+.heading{
+    background: #6E85B7;
+    padding: 10px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin: 0px 0px 10px 0px;
+}
+.layout_1_header{
+    background-color: #6E85B7;
+    padding: 10px 15px;
+}
+.layout_1_header h1{
+color: white;
+text-align: center;
+}
+.layout_1_banner{
+    background: url(../Images/banner.jpg) no-repeat center center;
+    background-size: cover;
+    height: 80vh;
+}
+.layout_1_banner h1{
+    color: white;
+    text-align: center;
+    padding: 40vh 40vh;
+}
+.layout_1_article{
+    overflow: hidden;
+}
+.left_article{
+    float: left;
+    width: 50%;
+    background-color: aqua;
+    padding: 20px 25px;
+    height: 300px;
+}
+.right_article{
+    float: right;
+     width: 50%;
+      background-color: bisque;
+      padding: 20px 25px;
+      height: 300px;
+}
+
+.layout_1_service{
+overflow: hidden;
+}
+.left_box{
+    width: 33.3%; 
+    float: left;
+    height:200px;
+    background-color: #6E85B7;
+    text-align: center;
+    color: white;
+}
+.middle_box{
+    width: 33.3%;
+    float: left;
+    height: 200px;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+}
+.right_box{
+    width: 33.3%;
+    float: left;
+    height: 200px;
+    background-color: aquamarine;
+    text-align: center;
+    color: white;
+}
+
+.ads_section{
+overflow: hidden;
+}
+.left_ads{
+width: 70%;
+float: left;
+height: 100px;
+background-color: chocolate;
+}
+.right_ads{
+    width: 30%;
+    float: right;
+    height: 100px;
+    background-color: crimson;
+}
+.left_ads h1{
+    color: white;
+    text-align: center;
+}
+.right_ads h1{
+    color: white;
+    text-align: center;
+}
+footer{
+    background-color: cornflowerblue;
+}
+footer h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size:30px ;
+    padding: 10px 0px;
+}
+
+/*Layout 2 Css Start */
+
+.layout_2_header{
+    overflow: hidden;
+}
+.layout_2_logo{
+    width: 20%;
+    background-color: darkseagreen;
+    float: left;
+}
+.layout_2_logo img{
+   width: 100px;
+}
+.layout_2_banner{
+    width: 80%;
+    background-color: dodgerblue;
+    float: right;
+    height: 104px;
+}
+.header_bar{
+    background-color:coral;
+    
+}
+.header_bar h1{
+    text-align: center;
+    padding: 20px 0px;
+}
+.block_section{}
+.left_block{
+    float: left;
+    width: 25%;
+    background-color: crimson;
+    height: 300px;
+}
+.middle_block{
+    float: left;
+    width: 50%;
+    background-color:darkblue;
+    height: 300px;
+}
+.right_block{
+    float: left;
+    width: 25%;
+    background-color:blueviolet;
+    height: 300px;
+}
+.middle_up{
+    height: 33.3%;
+    background-color: dodgerblue;
+}
+.middle_center{
+    height: 33.3%;
+    background-color:aquamarine;
+}
+.middle_down{
+    height: 33.3%;
+    background-color:darksalmon;
+}
+.middle_center_left{
+width: 50%;
+float: left;
+background-color:teal;
+height: 100%;
+}
+.middle_center_right{
+width: 50%;
+float: right;
+background-color:darkorchid;
+height: 100%;
+}
+.layout_2_footer{
+    background-color: darkred;
+}
+
+/* Layout 3 CSS Start */
+.layout_3_header{
+    background-color: darkseagreen;
+    padding: 20px 0px;
+
+}
+.layout_3_header h1{
+    color: white;
+    text-align: center;
+}
+.layout_3_nav{
+    background-color: chocolate;
+}
+.layout_3_nav h1{
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+.multiple_section{
+    overflow: hidden;
+}
+.multiple_left{
+    width: 70%;
+    background-color: cyan;
+    height: 300px;
+    float: left;
+}
+.multiple_right{
+    width: 30%;
+    background-color: coral;
+    height: 300px;
+    float: right;
+}
+.multiple_left_top{
+    background-color: cadetblue;
+    height: 50%;
+}
+.multiple_left_bottom{
+    background-color: deeppink;
+    height: 50%;
+}
+.multiple_right h1{
+    color: white;
+    text-align: center;
+}
+.multiple_left_top h1{
+    color: white;
+    text-align: center;
+}
+.multiple_left_bottom h1{
+    color: white;
+    text-align: center;
+}
+
+/* Layout 4 CSS Start */
+
+.layout_4_header{
+    background-color: brown;
+}
+.layout_4_header h1{
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+.layout_4_nav{
+    background-color: coral;
+}
+.layout_4_nav h1{
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+.content_section{
+    overflow: hidden;
+}
+.content_left{
+    width: 50%;
+    height: 250px;
+    background-color: darkviolet;
+    float: left;
+}
+.content_right{
+    width: 50%;
+    height: 250px;
+    background-color: dodgerblue;
+    float: right;
+}
+.content_left h1{
+    color: white;
+    text-align: center;
+}
+.content_right h1{
+    color: white;
+    text-align: center;
+}
+
+/* Layout 5 Css Start */
+.layout_5_header{
+    background-color: darkorange;
+}
+.layout_5_header h1{
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+.layout_5_nav{
+    background-color: darkorchid;
+}
+.layout_5_nav h1{
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+.main{
+    overflow: hidden;
+}
+.main_left{
+    width: 70%;
+    background-color:mediumpurple;
+    float: left;
+    height: 300px;
+}
+.main_left h1{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.main_left p{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+.main_aside{   
+    width: 30%;
+    background-color:indigo;
+    float: right;
+    height: 300px;
+}
+.main_aside h1{
+    color: white;
+    text-align: center;
+}
